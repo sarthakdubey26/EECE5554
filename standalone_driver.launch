@@ -1,0 +1,6 @@
+<launch>
+    <node pkg="gps_driver" exec="gps_driver.py" name="gps_driver" output="screen">
+        <param name="port" value="/dev/ttyUSB0"/>
+    </node>
+</launch>
+
